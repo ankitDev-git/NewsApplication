@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                         dataList.add(map);
                     }
                 } catch (JSONException e) {
+                    Log.e("NewsLog","Err",e);
                     Toast.makeText(getApplicationContext(), "Unexpected error", Toast.LENGTH_SHORT).show();
                 }
 
